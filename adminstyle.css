@@ -46,8 +46,8 @@ html{
 }
 
 .search > svg{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     /* border: solid red; */
     vertical-align: bottom;
 }
@@ -57,6 +57,7 @@ html{
     border-radius: 30px;
     /* border:solid rebeccapurple; */
     margin-top:0px;
+    background-color: rgb(182, 181, 180);
 }
 .notif
 {
@@ -119,7 +120,8 @@ html{
 {
     display: flex;
     gap:20px;
-    height: 30px;
+    height: auto;
+    width: auto;
     padding-right: 50px;
     justify-content: center;
     align-content: center;
@@ -131,9 +133,11 @@ html{
     color:white;
     border-radius: 30px;
     border:solid blue;
-    width:70px;
+    width:auto;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    font-size: larger;
+    height: auto;
 }
 .agrid
 {
@@ -175,6 +179,16 @@ html{
     
     /* border:solid red; */
 
+}
+.card >div{
+    display:flex;
+    justify-content: flex-end;
+    gap:5px;
+}
+.card>div svg{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
 }
 .announcement
 {
